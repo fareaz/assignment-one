@@ -36,7 +36,9 @@ nav{
     font-size:34px;
     font-weight:900;
 }
-
+main{
+    background-color: #4E47FF20;
+}
 
 
 /* banner */
@@ -56,7 +58,6 @@ text-align: center;
 .action-section-container{
     display: flex;
     justify-content: space-between;
-    margin: 160px 200px;
 }
 .action-section-content 
 {
@@ -78,6 +79,11 @@ text-align: center;
 }
 .action-section-img img{
     border-radius:48px ;
+}
+.action-section
+{
+   
+    padding: 160px 200px;
 }
 /* productive-users-section */
 .productive-users-section{
@@ -163,7 +169,7 @@ text-align: center;
  .webflow-container{
     align-items: center;
     text-align: center;
-    background-color: #4E47FF10;
+    background-color: white;
     padding:71px 150px ;
     margin: 100px 200px;
      border-radius: 16px;
@@ -191,22 +197,20 @@ text-align: center;
     margin-top: 70px;
    
 }
-
-
+.touch-section{
+    padding: 100px 200px;
+}
 .touch-container{
-    padding: 71px 20px ;
+    padding: 71px 0 ;
     display: flex;
-    gap: 100px;   
-    background-color: #4d47ff14;
-    border-radius: 16px;
-    margin: 100px 200px;
-   
+    justify-content: space-between; 
 }
 .touch-title{
     width: 50%;
 }
 form 
-{width: 38%;
+{width: 50%;
+    margin-right: 30px;
 }
 form input[ type="email"],input[ type="text"],textarea
 {
