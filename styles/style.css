@@ -6,11 +6,6 @@
   font-variation-settings:
     "wdth" 100;
 }
-
-
-main
-{background-color: #4d47ff11;
-    background:cover;}
 /* share styles */
 .text-logo
 { color:#4E47FF ;}
@@ -170,13 +165,15 @@ text-align: center;
     font-weight: bold;
     margin-top: 70px;
 }
-.touch-section{
-  /* margin: 100px 200px; */
-}
+
+
 .touch-container{
-    padding: 171px 200px ;
+    padding: 71px 20px ;
     display: flex;
     gap: 100px;   
+    background-color: #4d47ff14;
+    border-radius: 16px;
+    margin: 100px 200px;
 }
 .touch-title{
     width: 50%;
@@ -193,5 +190,5 @@ form input[ type="email"],input[ type="text"],textarea
     margin-bottom: 19px;
     border: none;
 }
-f
+
 
