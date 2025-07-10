@@ -204,6 +204,7 @@ text-align: center;
     padding: 71px 0 ;
     display: flex;
     justify-content: space-between; 
+    gap: 100px;
 }
 .touch-title{
     width: 50%;
