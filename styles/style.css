@@ -159,11 +159,37 @@ text-align: center;
 }.reviewer-name p{
     color: #0000009b;
 }
+ /* webflow */
+ .webflow-container{
+    align-items: center;
+    text-align: center;
+    background-color: #4E47FF10;
+    padding:71px 150px ;
+    margin: 100px 200px;
+     border-radius: 16px;
+ }
+ .webflow-content{
+    margin-bottom: 20px;
+ }
+ .webflow-content h3{
+    font-size:50px ;
+    font-weight: bold ;
+    margin-bottom: 20px;
+ }
+ .webflow-content p{
+      font-size: 20px;
+      color: #0e0e0f60;
+      margin-bottom: 20px;
+ }
+ .wbflow-img img{
+    border-radius: 48px;
+ }
 /* touch-section */
 .touch-title{
     font-size: 92px;
     font-weight: bold;
     margin-top: 70px;
+   
 }
 
 
@@ -174,6 +200,7 @@ text-align: center;
     background-color: #4d47ff14;
     border-radius: 16px;
     margin: 100px 200px;
+   
 }
 .touch-title{
     width: 50%;
