@@ -22,7 +22,11 @@
 .primary-btn:focus{
    background-color: #4d47ff92;
    color: #0000009b;
-
+}
+.primary-btn:hover{
+    font-size:18px;
+    box-shadow: 5px 5px 10px 5px #4d47ff39;
+    border: 2px solid #07054f20;
 }
 /* nav style */
 nav{
