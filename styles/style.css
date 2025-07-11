@@ -19,14 +19,18 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+.primary-btn:hover{
+    font-size:18px;
+    background-color: yellowgreen;
+    letter-spacing: 1px;
+    box-shadow: 5px 5px 5px ;
+    border: 2px solid #07054f20;
+    color: #000000;
+}
 .primary-btn:focus{
    background-color: #4d47ff92;
    color: #0000009b;
-}
-.primary-btn:hover{
-    font-size:18px;
-    box-shadow: 5px 5px 10px 5px #4d47ff39;
-    border: 2px solid #07054f20;
 }
 /* nav style */
 nav{
