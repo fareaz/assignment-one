@@ -230,8 +230,15 @@ form input[ type="email"],input[ type="text"],textarea
     margin-bottom: 19px;
     border: none;
 }
-.touch-btn{
+ .touch-btn .primary-btn{
     width: 100%;
+     padding: 15px 100px;
+}
+.form-font{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
 }
 /* footer */
 footer{
